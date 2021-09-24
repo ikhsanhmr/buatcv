@@ -10,10 +10,10 @@
 	                    <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
 	                        <div class="banner-content content-padding">
 	                           <h5 class="subtitle">A creative agency</h5>
-	                            <h1 class="banner-title">We craft seo and digital markting services</h1>
-	                            <p>We provide marketing services to startups and small businesses to looking for a partner for their digital media, design-area.We are a a startup company to be commited to work and time management.</p>
+	                            <h1 class="banner-title">Bikin CV Online dan Surat Lamaran Kerja Cepat dan Mudah</h1>
+	                            <p>Gak perlu bingung lagi kalau perlu CV untuk lamar kerja, karena di BuatCV kamu bisa buat CV dan Surat Lamaran Kerja cuma 5 menit disertai template menarik yang bantu kamu dilirik HRD</p>
 
-	                            <a href="contact" class="btn btn-white btn-circled">lets start</a>
+	                            <a href="contact" class="btn btn-white btn-circled">Mulai buat CV + Lamaran sekarang</a>
 	                        </div>
 	                    </div>
 	                </div>
@@ -28,7 +28,8 @@
 	            <div class="row">
 	                <div class="col-lg-12 col-sm-12 col-md-12">
 	                    <div class="section-heading">
-	                        <p class="lead">We are creative digital marketing agency with expertise to grow any business that need proper guidance and a committed service.</p>
+							<h2 class="font-weight-bold">Apa itu Buatcv?</h2>
+	                        <small>BuatCV adalah platform untuk membuat CV (Curriculum Vitae) atau Daftar Riwayat Hidup dan Surat lamaran Kerja secara online dengan Mudah, Cepat dan Praktis. Hanya perlu isi data dengan lengkap dan CV sudah bisa di download dalam bentuk PDF.</small>
 	                    </div>
 	                </div>
 	            </div>
@@ -43,29 +44,29 @@
 	                        <div class="col-lg-6 col-sm-6 col-md-6">
 	                            <div class="intro-box">
 	                                <span>01.</span>
-	                                <h4>Management</h4>
-	                                <p>we founded September with the goal of creating meaningful digital experiences that connect with people.</p>
+	                                <h4>Cepat dan Mudah</h4>
+	                                <p>Cuma perlu luangin waktu 5 menit aja CV kamu udah langsung bisa kamu download dan udah bisa kamu pakai untuk melamar kerja.</p>
 	                            </div>
 	                        </div>
 	                        <div class="col-lg-6 col-sm-6 col-md-6">
 	                            <div class="intro-box">
 	                                <span>02.</span>
-	                                <h4>Strategy</h4>
-	                                <p>We’re full service which means we’ve got you covered on design & content right through to digital. </p>
+	                                <h4>Banyak pilihan template CV</h4>
+	                                <p>Ada banyak pilihan template dengan warna dan layout menarik yang bisa buat CV kamu auto dilirik HRD.</p>
 	                            </div>
 	                        </div>
 	                        <div class="col-lg-6 col-sm-6 col-md-6">
 	                            <div class="intro-box">
 	                                <span>03.</span>
-	                                <h4>Experience</h4>
-	                                <p>You’ll form a lasting relationship with us, collaboration is central to we do.Digital experiences connect people.</p>
+	                                <h4>Saran dari HR Experts</h4>
+	                                <p>Dapatkan berbagai saran dari HR Expert mengenai hal yang menyangkut tentang CV dan melamar kerja.</p>
 	                            </div>
 	                        </div>
 	                        <div class="col-lg-6 col-sm-6 col-md-6">
 	                            <div class="intro-box">
 	                                <span>04.</span>
-	                                <h4>Build</h4>
-	                                <p>Technology and design are the core of success for real estate related businesses. Leverage our years.</p>
+	                                <h4>Pembayaran Mudah</h4>
+	                                <p>Ada banyak cara bayar yang bisa kamu pilih, jadi proses pembayaran CV kamu jadi lebih mudah.</p>
 	                            </div>
 	                        </div>
 	                    </div>
@@ -89,9 +90,9 @@
 	        <div class="row">
 	            <div class="col-lg-7 col-sm-12 col-md-8">
 	                <div class="about-content">
-	                    <h5 class="subtitle">About us</h5>
-	                    <h3>We are making beautiful <br>design layout for your business</h3>
-	                    <p>We craft beautiful website layout from scratch.You need not to worry about site design and other technial issue.We provide these attractive service as a bonus.Let's have atalk together for your next project.</p>
+	                    <!-- <h5 class="subtitle">About us</h5> -->
+	                    <h3>Kenapa di buatcv?</h3>
+	                    <p>BuatCV adalah platform Pertama dan No. 1 di Indonesia untuk pembuatan CV atau Daftar Riwayat Hidup dan Surat lamaran Kerja secara online. Fitur-fitur unggulan kami yang akan membantu mendapatkan pekerjaan impianmu.</p>
 
 	                    <ul class="about-list">
 	                        <li><i class="icofont icofont-check-circled"></i> Responsive site</li>
@@ -126,8 +127,8 @@
 	        <div class="row">
 	            <div class="col-lg-12 col-sm-12 m-auto">
 	                <div class="section-heading text-white">
-	                    <h4 class="section-title">Full stack digital marketing solution</h4>
-	                    <p>We’re full service which means we’ve got you covered on design & content right through to digital. You’ll form a lasting relationship with us.</p>
+	                    <h4 class="section-title">Bagaimana Cara kerja Buatcv</h4>
+	                    <p>cukup 3 langkah mudah untuk buat cv online</p>
 	                </div>
 	            </div>
 	        </div>
@@ -142,38 +143,38 @@
 	                <div class="col-lg-4 col-sm-6 col-md-6">
 	                    <div class="service-box">
 	                        <div class="service-img-icon">
-	                            <img src="assets/images/icon/007-digital-marketing-3.png" alt="service-icon" class="img-fluid">
+	                            <img src="assets/images/icon/checklist.png" alt="service-icon" class="img-fluid">
 	                        </div>
 	                        <div class="service-inner">
-	                            <h4>Video Marketing</h4>
-	                            <p>Reach a huge area of users and get a publicty of your product and service ,<span>video marketing</span> solution.</p>
+	                            <h4>Isi Data</h4>
+	                            <p>Lengkapi form riwayat hidup dengan semua hal yang ingin kamu tampilkan pada CV kamu.</p>
 	                        </div>
 	                    </div>
 	                </div>
 	                <div class="col-lg-4 col-sm-6 col-md-6">
 	                    <div class="service-box ">
 	                        <div class="service-img-icon">
-	                            <img src="assets/images/icon/008-digital-marketing-2.png" alt="service-icon" class="img-fluid">
+	                            <img src="assets/images/icon/interactive.png" alt="service-icon" class="img-fluid">
 	                        </div>
 	                        <div class="service-inner">
-	                            <h4>Email Marketing</h4>
-	                            <p>Email Marketing is a great solution to reach a <span>high range of customers</span> eagrerly waiting to get a service.</p>
+	                            <h4>Pilih Design</h4>
+	                            <p>Kamu bisa pilih desain dari berbagai pilihan template menarik yang bisa buat CV kamu auto dilirik HRD.</p>
 	                        </div>
 	                    </div>
 	                </div>
 	                <div class="col-lg-4 col-sm-6 col-md-6">
 	                    <div class="service-box">
 	                        <div class="service-img-icon">
-	                            <img src="assets/images/icon/003-task.png" alt="service-icon" class="img-fluid">
+	                            <img src="assets/images/icon/cloud.png" alt="service-icon" class="img-fluid">
 	                        </div>
 	                        <div class="service-inner">
-	                            <h4>SEO optimization</h4>
-	                            <p>we provide wide range of<span> seo service</span> to make your site at top to reach your target customers provided.</p>
+	                            <h4>Download CV</h4>
+	                            <p>Setelah semua tahap selesai, kamu sudah bisa download CV melalui dashboard dan siap digunakan untuk melamar kerja</p>
 	                        </div>
 	                    </div>
 	                </div>
 
-	                <div class="col-lg-4 col-sm-6 col-md-6">
+	                <!-- <div class="col-lg-4 col-sm-6 col-md-6">
 	                    <div class="service-box">
 	                        <div class="service-img-icon">
 	                            <img src="assets/images/icon/010-digital-marketing.png" alt="service-icon" class="img-fluid">
@@ -205,7 +206,7 @@
 	                            <p>Want to grow your <span>potential visitor</span> your site to make it more effective and succesful business .</p>
 	                        </div>
 	                    </div>
-	                </div>
+	                </div> -->
 	            </div>
 	        </div>
 	    </section>
@@ -408,15 +409,17 @@
 	<section id="counter" class="section-padding">
 	    <div class="overlay dark-overlay"></div>
 	    <div class="container">
-	        <div class="row">
-	            <div class="col-lg-3 col-sm-6 col-md-6">
+	        <div class="row ">
+	            <div class="col-12 justify-content-center text-center">
 	                <div class="counter-stat">
-	                    <i class="icofont icofont-heart"></i>
+	                    <i class="icofont icofont-rocket"></i>
 	                    <span class="counter">460</span>
-	                    <h5>Our Happy Clients</h5>
+	                    <h5>CV BERHASIL DI BUAT</h5>
+						<small>Yuk buat CV-mu sekarang di BikinCV dan bikin kagum HRD di tempat kerja incaranmu.</small><br>
+						<a href="contact" class="btn btn-white btn-circled mt-4">Mulai buat CV + Lamaran sekarang</a>
 	                </div>
 	            </div>
-	            <div class="col-lg-3 col-sm-6 col-md-6">
+	            <!-- <div class="col-lg-3 col-sm-6 col-md-6">
 	                <div class="counter-stat">
 	                    <i class="icofont icofont-rocket"></i>
 	                    <span class="counter">60</span>
@@ -436,7 +439,7 @@
 	                    <span class="counter">25</span>
 	                    <h5>Ongoning Projects</h5>
 	                </div>
-	            </div>
+	            </div> -->
 	        </div>
 	    </div>
 	</section>
@@ -447,9 +450,9 @@
 	            <div class="row">
 	                <div class="col-lg-12 col-sm-12 m-auto">
 	                    <div class="section-heading">
-	                        <h4 class="section-title">Latest Blog news</h4>
+	                        <h4 class="section-title">Berita Terbaru</h4>
 	                        <div class="line"></div>
-	                        <p>Our blog journey may come handy to build a community to make more effective success for business. Latest and trend tricks will help a lot </p>
+	                        <!-- <p>Our blog journey may come handy to build a community to make more effective success for business. Latest and trend tricks will help a lot </p> -->
 	                    </div>
 	                </div>
 	            </div>
