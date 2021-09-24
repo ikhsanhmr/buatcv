@@ -13,13 +13,13 @@ use App\Http\Controllers\IndexController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () { return view('pages.beranda'); });
-Route::get('/about', function () { return view('pages.about'); });
-Route::get('/service', function () { return view('pages.service'); });
-Route::get('/pricing', function () { return view('pages.pricing'); });
-Route::get('/blog', function () { return view('pages.blog'); });
-Route::get('/blog_single', function () { return view('pages.blog_single'); });
-Route::get('/contact', function () { return view('pages.contact'); });
+Route::get('/', function () { return view('frontend.pages.beranda'); });
+Route::get('/about', function () { return view('frontend.pages.about'); });
+Route::get('/service', function () { return view('frontend.pages.service'); });
+Route::get('/pricing', function () { return view('frontend.pages.pricing'); });
+Route::get('/blog', function () { return view('frontend.pages.blog'); });
+Route::get('/blog_single', function () { return view('frontend.pages.blog_single'); });
+Route::get('/contact', function () { return view('frontend.pages.contact'); });
 
 // Route::get('/', function () {
 //     return view('welcome');
