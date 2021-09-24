@@ -29,7 +29,8 @@
         <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="assets/images/logo.png" alt="" class="img-fluid b-logo">
+                    BUATCV
+                    <!-- <img src="assets/images/logo.png" alt="" class="img-fluid b-logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -83,8 +84,8 @@
                 <div class="row">
                     <div class="col-lg-5 col-sm-8 col-md-8">
                         <div class="footer-widget footer-link">
-                            <h4>We concern about you<br> to grow business rapidly.</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam hic non sunt recusandae atque unde saepe nihil earum voluptatibus aliquid optio suscipit nobis quia excepturi vel quod, iure quae.</p>
+                            <h4>BuatCV - best CV builder platform</h4>
+                            <p>buatcv adalah platform untuk membuat CV dan Surat Lamaran Kerja secara online dengan mudah, cepat dan praktis. Hanya 5 menit, pengguna sudah dapat mengunduh CV berkualitas dan mengirim lamaran saat itu juga.</p>
                         </div>
                     </div>
                     <div class="col-lg-2 col-sm-4 col-md-4">
@@ -126,7 +127,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="footer-copy">
-                            © 2018 Promodise inc. All Rights Reserved.
+                            © 2021 BuatCV inc. All Rights Reserved.
                         </div>
                     </div>
                 </div>
@@ -150,7 +151,7 @@
         <script src="assets/plugins/google-map/gmap3.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>   
         <!-- Contact Form -->
-        <script src="assets/plugins/jquery/contact.js"></script>
+        <script src="assets/plugins/form/contact.js"></script>
         <script src="assets/js/custom.js"></script>
     </body>
 </html>
