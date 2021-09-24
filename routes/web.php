@@ -26,3 +26,7 @@ Route::get('/contact', function () { return view('frontend.pages.contact'); });
 // });
 
 Route::get('/index', [IndexController::class, 'index']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
