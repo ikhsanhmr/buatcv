@@ -71,6 +71,9 @@
                         <li class="nav-item">
                             <a class="nav-link smoth-scroll" href="contact">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link smoth-scroll" href="{{ route('create-cv') }}">Form CV</a>
+                        </li>
                     </ul>
                 </div>
             </div>

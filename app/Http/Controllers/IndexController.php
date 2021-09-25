@@ -10,4 +10,9 @@ class IndexController extends Controller
     {
         return view('admin.content');
     }
+
+    public function create()
+    {
+        return view('frontend.pages.formcv');
+    }
 }
