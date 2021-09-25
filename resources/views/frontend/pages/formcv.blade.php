@@ -17,52 +17,53 @@
 	</div>
 	<!--MAIN HEADER AREA END -->
 <div class="content">
+  <div></div>
         <div class="content">
             <div class="card card-info card-outline">
 
                 <div class="card-body">
-                    <form action="" method="">
-                      <!-- {{csrf_field()}} -->
+                    <form action="{{route('simpan-form')}}" method="POST">
+                      {{csrf_field()}}
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama Lengkap">
+                        <input type="text" name="namaLengkap" id="namaLengkap" class="form-control" placeholder="Nama Lengkap">
                       </div>
 
                       <div class="form-group">
-                        <input type="text" name="jenis_kelamin" id="jenis_kelamin" class="form-control" placeholder="Tempat Lahir">
+                        <input type="text" name="tempatLahir" id="tempatLahir" class="form-control" placeholder="Tempat Lahir">
                       </div>
 
                       <div class="form-group">
-                        <input type="date" name="tglLahir" id="tglLahir" class="form-control" placeholder="Tanggal Lahir">
+                        <input type="date" name="tanggalLahir" id="tanggalLahir" class="form-control" placeholder="Tanggal Lahir">
                       </div>
 
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Agama">
+                        <input type="text" name="agama" id="agama" class="form-control" placeholder="Agama">
                       </div>
 
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Nomer Telepon">
+                        <input type="text" name="nomortelp" id="nomortelp" class="form-control" placeholder="Nomer Telepon">
                       </div>
 
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Email">
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Email">
                       </div>
 
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Alamat">
+                        <input type="text" name="alamat" id="alamat" class="form-control" placeholder="Alamat">
                       </div>
 
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Kota">
+                        <input type="text" name="kota" id="kota" class="form-control" placeholder="Kota">
                       </div>
 
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Negara">
+                        <input type="text" name="negara" id="negara" class="form-control" placeholder="Negara">
                       </div>
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Jenis Kelamim">
+                        <input type="text" name="jenisKelamin" id="jenisKelamin" class="form-control" placeholder="Jenis Kelamim">
                       </div>
                       <div class="form-group">
-                        <input type="text" name="nama" id="nama" class="form-control" placeholder="Status Pernikahan">
+                        <input type="text" name="statusPernikahan" id="statusPernikahan" class="form-control" placeholder="Status Pernikahan">
                       </div>
                       <div class="form-group">
                         <button type="submit" class="btn btn-success">Simpan Data</button>
