@@ -20,6 +20,8 @@ Route::get('/pricing', function () { return view('frontend.pages.pricing'); });
 Route::get('/blog', function () { return view('frontend.pages.blog'); });
 Route::get('/blog_single', function () { return view('frontend.pages.blog_single'); });
 Route::get('/contact', function () { return view('frontend.pages.contact'); });
+
+// Create CV
 Route::get('/create-cv', [IndexController::class, 'create']) ->name('create-cv');
 Route::post('/simpan-form', [IndexController::class, 'store']) ->name('simpan-form');
 
