@@ -28,7 +28,7 @@
                 <div id="steps-container">
                   <div class="step">
                     <div class="form-group">
-                      <label for="namaLengkap" class="form-label">Email address</label>
+                      <label for="namaLengkap" class="form-label">Nama Lengkap</label>
                       <input type="text" name="namaLengkap" id="namaLengkap" class="form-control"
                           placeholder="Nama Lengkap" value="{{ old('namaLengkap') }}">
                       @error('namaLengkap')
