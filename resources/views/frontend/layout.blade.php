@@ -7,7 +7,7 @@
         @yield('description')
         
         @include('frontend.partials.head')
-
+        @livewireStyles
     </head>
 
     <body data-spy="scroll" data-target=".fixed-top">
@@ -20,5 +20,6 @@
         <!--  FOOTER AREA END  -->
         
         @include('frontend.partials.script')
+        @livewireScripts
     </body>
 </html>
