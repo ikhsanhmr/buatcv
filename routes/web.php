@@ -23,7 +23,7 @@ Route::get('/contact', function () { return view('frontend.pages.contact'); });
 
 // Create CV
 Route::get('/create-cv', [IndexController::class, 'create']) ->name('create-cv');
-Route::post('/simpan-form', [IndexController::class, 'store']) ->name('simpan-form');
+Route::get('/preview-cv', [IndexController::class, 'preview']) ->name('preview-cv');
 
 // Route::get('/', function () {
 //     return view('welcome');

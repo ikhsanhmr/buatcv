@@ -16,5 +16,3 @@
 <!-- Contact Form -->
 <script src="{{asset('frontend/assets/plugins/form/contact.js')}}"></script>
 <script src="{{asset('frontend/assets/js/custom.js')}}"></script>
-{{-- Main JS --}}
-<script src="{{asset('frontend/assets/js/main.js')}}"></script>

@@ -21,7 +21,6 @@
         @livewire('multi-step-form')
     </div>
 </div>
-</div>
 @endsection
 
 @section('title')
