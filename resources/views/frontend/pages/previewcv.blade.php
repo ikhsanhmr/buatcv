@@ -24,7 +24,7 @@
         <div class="resume_content">
             <div class="resume_item resume_info">
                 <div class="title">
-                    <p class="bold">{{ $dataDiri->namaLengkap }}</p>
+                    <p class="bold">Admin</p>
                 </div>
                 <ul>
                     <li>
@@ -32,7 +32,7 @@
                             <i class="fas fa-map-signs"></i>
                         </div>
                         <div class="data">
-                            {{ $dataDiri->alamat }}
+                            Alamat
                         </div>
                     </li>
                     <li>
@@ -40,7 +40,7 @@
                             <i class="fas fa-mobile-alt"></i>
                         </div>
                         <div class="data">
-                            {{ $dataDiri->nomortelp }}
+                            Nomor Telepon
                         </div>
                     </li>
                     <li>
@@ -48,7 +48,7 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="data">
-                            {{ $dataDiri->email }}
+                            Email
                         </div>
                     </li>
                 </ul>
@@ -156,7 +156,6 @@
                 <p class="bold">About us</p>
             </div>
             <p>
-              {{ $dataDiri->deskripsiDiri }}
             </p>
         </div>
         <div class="resume_item resume_work">
