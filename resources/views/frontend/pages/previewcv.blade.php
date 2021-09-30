@@ -19,17 +19,17 @@
 <div class="resume">
     <div class="resume_left">
         <div class="resume_profile">
-            <img src="https://i.imgur.com/eCijVBe.png" alt="profile_pic">
+            <img src="{{ $dataDiri->image }}" alt="profile_pic">
         </div>
         <div class="resume_content">
             <div class="resume_item resume_info">
                 <div class="title">
-                    <p class="bold">{{ $dataDiri->namaLengkap }}</p>
+                    <p class="bold">Contact</p>
                 </div>
                 <ul>
                     <li>
                         <div class="icon">
-                            <i class="fas fa-map-signs"></i>
+                            <i class="fas fa-home"></i>
                         </div>
                         <div class="data">
                             {{ $dataDiri->alamat }}
@@ -153,7 +153,7 @@
     <div class="resume_right">
         <div class="resume_item resume_about">
             <div class="title">
-                <p class="bold">About us</p>
+                <p class="bold">{{ $dataDiri->namaLengkap }}</p>
             </div>
             <p>
               {{ $dataDiri->deskripsiDiri }}

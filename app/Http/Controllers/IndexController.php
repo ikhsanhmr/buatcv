@@ -20,7 +20,7 @@ class IndexController extends Controller
     public function preview() {
 
         $dataDiri = Formcv::find(3);
-        return view('frontend.pages.previewcv', compact('dataDiri'));
+        return view('frontend.pages.previewcv2', compact('dataDiri'));
 
     }
 }
