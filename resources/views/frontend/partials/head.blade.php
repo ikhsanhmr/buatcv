@@ -15,6 +15,8 @@
 <link rel="stylesheet" href="{{asset('frontend/assets/plugins/icofont/icofont.css')}}">
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="{{asset('frontend/assets/css/style.css')}}">
-{{-- CV Stylesheet --}}
-<link rel="stylesheet" href="{{ asset('frontend/assets/css/cv.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/assets/css/cv2.css') }}">
+
+{{-- CV --}}
+<link rel="stylesheet" href="{{ asset('frontend/assets/css/main.css') }}">
+
+{{-- Main --}}
