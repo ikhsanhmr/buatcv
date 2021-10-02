@@ -30,9 +30,6 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Tentang Kami</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">Harga</a></li>
-                        <li><a href="#">Pembayaran</a></li>
-                        <li><a href="#">Profile Online</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,15 +37,18 @@
                 <div class="footer-widget">
                     <div class="d-flex align-items-center ">
                         <i class="icofont-email"></i>
-                        <p> : @buatCv.gmail.com</p>
+                        <p>:</p>
+                        <p>@buatCv.gmail.com</p>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="icofont-instagram"></i>
-                        <p> : buatcvdotcom</p>
+                        <p>:</p>
+                        <p>buatcvdotcom</p>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="icofont-brand-whatsapp"></i>
-                        <p> : 081586945290</p>
+                        <p>:</p>
+                        <p>081586945290</p>
                     </div>
                 </div>
             </div>
