@@ -36,7 +36,7 @@
 	            <div class="row">
 	                <div class="col-lg-5  d-none d-lg-block col-sm-12">
 	                    <div class="intro-img">
-	                        <img src="assets/images/banner/why-choose.png" alt="intro-img" class="img-fluid">
+	                        <img src="{{asset('frontend/assets/images/banner/why-choose.png')}}" alt="intro-img" class="img-fluid">
 	                    </div>
 	                </div>
 	                <div class="col-lg-7 col-md-12 col-sm-12 ">
@@ -143,7 +143,7 @@
 	                <div class="col-lg-4 col-sm-6 col-md-6">
 	                    <div class="service-box">
 	                        <div class="service-img-icon">
-	                            <img src="assets/images/icon/checklist.png" alt="service-icon" class="img-fluid">
+	                            <img src="{{asset('frontend/assets/images/icon/checklist.png')}}" alt="service-icon" class="img-fluid">
 	                        </div>
 	                        <div class="service-inner">
 	                            <h4>Isi Data</h4>
@@ -154,7 +154,7 @@
 	                <div class="col-lg-4 col-sm-6 col-md-6">
 	                    <div class="service-box ">
 	                        <div class="service-img-icon">
-	                            <img src="assets/images/icon/interactive.png" alt="service-icon" class="img-fluid">
+	                            <img src="{{asset('frontend/assets/images/icon/interactive.png')}}" alt="service-icon" class="img-fluid">
 	                        </div>
 	                        <div class="service-inner">
 	                            <h4>Pilih Design</h4>
@@ -165,7 +165,7 @@
 	                <div class="col-lg-4 col-sm-6 col-md-6">
 	                    <div class="service-box">
 	                        <div class="service-img-icon">
-	                            <img src="assets/images/icon/cloud.png" alt="service-icon" class="img-fluid">
+	                            <img src="{{asset('frontend/assets/images/icon/cloud.png')}}" alt="service-icon" class="img-fluid">
 	                        </div>
 	                        <div class="service-inner">
 	                            <h4>Download CV</h4>
@@ -324,7 +324,7 @@
 	                                        <div class="testimonial-content style-2">
 	                                            <div class="author-info ">
 	                                                <div class="author-img">
-	                                                    <img src="assets/images/author/3b.jpg" alt="" class="img-fluid">
+	                                                    <img src="{{asset('frontend/assets/images/author/3b.jpg')}}" alt="" class="img-fluid">
 	                                                </div>
 	                                            </div>
 
@@ -343,7 +343,7 @@
 	                                        <div class="testimonial-content style-2">
 	                                            <div class="author-info ">
 	                                                <div class="author-img">
-	                                                    <img src="assets/images/author/5b.jpg" alt="" class="img-fluid">
+	                                                    <img src="{{asset('frontend/assets/images/author/5b.jpg')}}" alt="" class="img-fluid">
 	                                                </div>
 	                                            </div>
 
@@ -364,7 +364,7 @@
 	                                        <div class="testimonial-content style-2">
 	                                            <div class="author-info ">
 	                                                <div class="author-img">
-	                                                    <img src="assets/images/author/3b.jpg" alt="" class="img-fluid">
+	                                                    <img src="{{asset('frontend/assets/images/author/3b.jpg')}}" alt="" class="img-fluid">
 	                                                </div>
 	                                            </div>
 
@@ -390,16 +390,16 @@
 	    <div class="container">
 	        <div class="row">
 	            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-	                <img src="assets/images/clients/client01.png" alt="partner" class="img-fluid">
+	                <img src="{{asset('frontend/assets/images/clients/client01.png')}}" alt="partner" class="img-fluid">
 	            </div>
 	            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-	                <img src="assets/images/clients/client06.png" alt="partner" class="img-fluid">
+	                <img src="{{asset('frontend/assets/images/clients/client06.png')}}" alt="partner" class="img-fluid">
 	            </div>
 	            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-	                 <img src="assets/images/clients/client04.png" alt="partner" class="img-fluid">
+	                 <img src="{{asset('frontend/assets/images/clients/client04.png')}}" alt="partner" class="img-fluid">
 	            </div>
 	            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-	                <img src="assets/images/clients/client05.png" alt="partner" class="img-fluid">
+	                <img src="{{asset('frontend/assets/images/clients/client05.png')}}" alt="partner" class="img-fluid">
 	            </div>
 	        </div>
 	    </div>
@@ -460,7 +460,7 @@
 	            <div class="row">
 	                <div class="col-lg-4 col-sm-6 col-md-4">
 	                    <div class="blog-block ">
-	                        <img src="assets/images/blog/blog-1.jpg" alt="" class="img-fluid">
+	                        <img src="{{asset('frontend/assets/images/blog/blog-1.jpg')}}" alt="" class="img-fluid">
 	                        <div class="blog-text">
 	                            <h6 class="author-name"><span>Tips and tricks</span>john Doe</h6>
 	                            <a href="blog-single.html" class="h5 my-2 d-inline-block">
@@ -472,7 +472,7 @@
 	                </div>
 	                <div class="col-lg-4 col-sm-6 col-md-4">
 	                    <div class="blog-block ">
-	                        <img src="assets/images/blog/blog-2.jpg" alt="" class="img-fluid">
+	                        <img src="{{asset('frontend/assets/images/blog/blog-2.jpg')}}" alt="" class="img-fluid">
 	                        <div class="blog-text">
 	                            <h6 class="author-name"><span>Branding</span>john Doe</h6>
 	                            <a href="blog-single.html" class="h5 my-2 d-inline-block">
@@ -484,7 +484,7 @@
 	                </div>
 	                <div class="col-lg-4 col-sm-6 col-md-4">
 	                    <div class="blog-block ">
-	                        <img src="assets/images/blog/blog-3.jpg" alt="" class="img-fluid">
+	                        <img src="{{asset('frontend/assets/images/blog/blog-3.jpg')}}" alt="" class="img-fluid">
 	                        <div class="blog-text">
 	                            <h6 class="author-name"><span>Marketing</span>john Doe</h6>
 	                            <a href="blog-single.html" class="h5 my-2 d-inline-block">
