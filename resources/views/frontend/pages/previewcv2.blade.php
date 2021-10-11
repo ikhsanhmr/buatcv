@@ -189,4 +189,8 @@
   </div>
 </div>
 
+<div class="d-flex justify-content-end">
+  <a href="{{ route('check-out') }}" class="btn btn-success btn-lg m-4">Check Out</a>
+</div>
+
 @endsection

@@ -37,6 +37,14 @@ Route::prefix('admin')->name('admin.')->group(function () {
   Route::get('/dashboard', [IndexController::class, 'index'])->name('dashboard');
 });
 
+Route::get('/check-out', function () {
+    return view('frontend.pages.check_out');
+})->name('check-out');
+
+Route::get('/konfirmasi', function () {
+  return view('frontend.pages.confirmation');
+})->name('konfirmasi');
+
 
 // Auth::routes();
 // Route::get('/home', [HomeController::class, 'index'])->name('home');

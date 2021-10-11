@@ -18,5 +18,6 @@
 
 {{-- CV --}}
 <link rel="stylesheet" href="{{ asset('frontend/assets/css/main.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/assets/css/cv2.css') }}">
 
 {{-- Main --}}
