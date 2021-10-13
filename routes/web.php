@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\users\ConfirmPaymentController;
+use App\Models\users\ConfirmPayment;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,16 +37,22 @@ Route::get('/blog', function () { return view('frontend.pages.about'); })->name(
 Route::get('/create-cv', [IndexController::class, 'create']) ->name('create-cv');
 Route::get('/preview-cv', [IndexController::class, 'preview']) ->name('preview-cv');
 
+Route::prefix('user')->name('user.')->group(function () {
+  Route::get('/dashboard', [ConfirmPaymentController::class, 'dashboard'])->name('dashboard');
+  Route::get('/konfirmasi-pembayaran', [ConfirmPaymentController::class, 'index'])->name('konfirmasi-pembayaran');
+  Route::post('/store/konfirmasi-pembayaran', [ConfirmPaymentController::class, 'store'])->name('store.konfirmasi-pembayaran');
+});
+
 Route::prefix('admin')->name('admin.')->group(function () {
   Route::get('/dashboard', [IndexController::class, 'index'])->name('dashboard');
 });
+
 
 Route::get('/check-out', function () {
     return view('frontend.pages.check_out');
 })->name('check-out');
 
 // Upload Bukti Pembayaran
-Route::get('/pembayaran', [OrderController::class, 'index'])->name('pembayaran');
 
 
 Route::get('/konfirmasi', function () {

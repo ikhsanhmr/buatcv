@@ -9,7 +9,7 @@ class OrderController extends Controller
     
     public function index() {
 
-        return view('frontend.pembayaran.index');
+        return view('frontend.users.pages.konfirmasi_pembayaran');
     }
 
 }
