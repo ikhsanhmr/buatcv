@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\OrderController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -40,6 +42,10 @@ Route::prefix('admin')->name('admin.')->group(function () {
 Route::get('/check-out', function () {
     return view('frontend.pages.check_out');
 })->name('check-out');
+
+// Upload Bukti Pembayaran
+Route::get('/pembayaran', [OrderController::class, 'index'])->name('pembayaran');
+
 
 Route::get('/konfirmasi', function () {
   return view('frontend.pages.confirmation');
